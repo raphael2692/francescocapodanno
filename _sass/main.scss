@@ -1,0 +1,103 @@
+$color-active: black;
+$color-inactive: grey;
+$vertical-pad: 2em;
+$title-font: 'Special Elite', cursive;
+$body-font: 'Josefin Slab', serif;
+
+
+// Shared
+body {
+  font-family: $body-font;
+  margin-top: 48px;
+}
+
+h1, h2, h3 {
+  font-family: $title-font;
+}
+
+// Navbar
+.link-active {
+    color: $color-active !important;
+  }
+
+.link-inactive {
+  color: $color-inactive !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+// Header
+
+// css for video background
+// https://startbootstrap.com/snippets/video-header
+.custom-video-wrapper {
+  position: relative;
+  background-color: black;
+  height: auto;
+  min-height: 35vh;
+  padding-top: $vertical-pad;
+  padding-bottom: $vertical-pad;
+  width: 100%;
+  overflow: hidden;
+}
+
+.custom-video-wrapper video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.custom-video-wrapper .container {
+  position: relative;
+  z-index: 2;
+}
+
+.custom-video-wrapper .custom-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  .custom-video-wrapper {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  .custom-video-wrapper .video {
+    display: none;
+  }
+}
+
+// header_libro
+.header_section {
+  padding-top: $vertical-pad;
+  padding-bottom: $vertical-pad;
+  height: auto;
+
+}
+.tinted-image {
+
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+
+

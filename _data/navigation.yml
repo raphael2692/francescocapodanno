@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Biografia
+  link: /bio.html
+- name: Pagina Libro
+  link: /pagina_libro.html
+- name: Videogallery
+  link: /videogallery.html
+- name: Imagegallery
+  link: /imagegallery.html
+- name: Contributi
+  link: /contributi.html
