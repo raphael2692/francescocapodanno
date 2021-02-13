@@ -1,6 +1,6 @@
 $color-active: black;
 $color-inactive: grey;
-$color-links: #7F2B29;
+$color-accent: #7F2B29;
 $vertical-pad: 2em;
 $title-font: 'Special Elite', cursive;
 $body-font: 'Josefin Slab', serif;
@@ -100,14 +100,23 @@ h1, h2, h3 {
 }
 
 a {
-  color: $color-links !important;
+  color: $color-accent !important;
 }
 
 a:active {
-  color: $color-links !important;
+  color: $color-accent !important;
 }
 
-.imageGalleryElemWrap {
+.boxShadow {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 
+}
+
+.sectionHeader {
+  background-color: $color-accent;
+  color: white;
+}
+
+p, ul {
+  font-size: 1.2em;
 }
