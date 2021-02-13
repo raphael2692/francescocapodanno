@@ -1,5 +1,6 @@
 $color-active: black;
 $color-inactive: grey;
+$color-links: #7F2B29;
 $vertical-pad: 2em;
 $title-font: 'Special Elite', cursive;
 $body-font: 'Josefin Slab', serif;
@@ -17,7 +18,7 @@ h1, h2, h3 {
 
 // Navbar
 .link-active {
-    color: $color-active !important;
+    color: olor-links!important;
   }
 
 .link-inactive {
@@ -98,6 +99,15 @@ h1, h2, h3 {
   color: white;
 }
 
+a {
+  color: $color-links !important;
+}
 
+a:active {
+  color: $color-links !important;
+}
 
+.imageGalleryElemWrap {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 
+}

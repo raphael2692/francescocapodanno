@@ -6,7 +6,7 @@ h1, h2, h3 {
   font-family: "Special Elite", cursive; }
 
 .link-active {
-  color: black !important; }
+  color: olor-links !important; }
 
 .link-inactive {
   color: grey !important; }
@@ -67,3 +67,12 @@ h1, h2, h3 {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed;
   background-size: cover;
   color: white; }
+
+a {
+  color: #7F2B29 !important; }
+
+a:active {
+  color: #7F2B29 !important; }
+
+.imageGalleryElemWrap {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5); }
