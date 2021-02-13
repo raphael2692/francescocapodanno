@@ -1,17 +1,72 @@
 <header>
   <div class="custom-video-wrapper border border-danger">
-    <div class="custom-video-overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-    </video>
+    <div class="custom-video-overlay">
+      <div id="backgroundHeader"></div>
+    </div>
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white pt-5">
           <h1 class="">Francesco Capodanno</h1>
-          <p class="lead mb-0">Sito dedicato alla memoria di Francesco Capodanno, complementare al libro dedicatogli: <a
-              class="text-light" href="#home_libro">"Titolo Libro"</a></p>
+          <p class="lead mb-0">
+            Sito dedicato alla memoria di Francesco Capodanno, complementare al
+            libro dedicatogli:
+            <a class="text-light" href="#home_libro">"Titolo Libro"</a>
+          </p>
         </div>
       </div>
     </div>
   </div>
 </header>
+<script>
+  //document.getElementById('UserAgent').value = navigator.userAgent;
+  //var test = navigator.userAgent;
+  //console.log(test)
+
+  function get_browser() {
+    var ua = navigator.userAgent,
+      tem,
+      M =
+        ua.match(
+          /(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i
+        ) || [];
+    if (/trident/i.test(M[1])) {
+      tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+      return { name: "IE", version: tem[1] || "" };
+    }
+    if (M[1] === "Chrome") {
+      tem = ua.match(/\bOPR|Edge\/(\d+)/);
+      if (tem != null) {
+        return { name: "Opera", version: tem[1] };
+      }
+    }
+    M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, "-?"];
+    if ((tem = ua.match(/version\/(\d+)/i)) != null) {
+      M.splice(1, 1, tem[1]);
+    }
+    return {
+      name: M[0],
+      version: M[1],
+    };
+  }
+
+  var browser = get_browser();
+  // browser.name = 'Chrome'
+  // browser.version = '40'
+  console.log(browser);
+
+  function switchHeeader(currentBrowser) {
+    if (currentBrowser.name === "Chrome" && currentBrowser.version >= 83) {
+      console.log("ok");
+      var elem = document.querySelector("#backgroundHeader");
+      var videoBackground =
+        '<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"></video>';
+      elem.innerHTML = videoBackground;
+    }
+    else {
+      var elem = document.querySelector("#backgroundHeader");
+      var staticImageBackground = '<img src="https://images.pexels.com/photos/6599352/pexels-photo-6599352.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid" alt="Responsive image">'
+      elem.innerHTML = staticImageBackground;
+    }
+  }
+  switchHeeader(browser);
+</script>
