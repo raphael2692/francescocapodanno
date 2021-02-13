@@ -65,7 +65,7 @@
   </div>
 </nav>
     <header>
-  <div class="custom-video-wrapper border border-danger">
+  <div class="custom-video-wrapper">
     <div class="custom-video-overlay">
       <div id="backgroundHeader"></div>
     </div>
@@ -125,7 +125,7 @@
       console.log("ok");
       var elem = document.querySelector("#backgroundHeader");
       var videoBackground =
-        '<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"></video>';
+        '<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://cdn-cf-east.streamable.com/video/mp4/nc724h.mp4?Expires=1613476740&Signature=bFQYrgFQZ2SIvfSU0pXa7CyfqikZP5Mq6sF5T8qiYcgDa40OKu81b4GVuv9AxQU5FdumErU~FmLmrPPKuZn816GCs~Ls2VI4Z7Teuo7vJrhOYFa2xtEYawam~NhuQr2rb~cP-IMOHrZmnMkS69yaW-KFlK-heUAVKcn0KpOs2y0~AIs1hBTJDsBcj9JchLMmwI6rrZaaehh3DxzSRCgKEj89-khdLeNLLUpe-cfWi7vwEfPOtda7072i40DNNGExYme7hXm4F~94O-GM9dKlm1sVqKqyOAdXVbDCc4lwUUNkXJpDyWBHR6JaRxZC6rjuR11leqYZqWmP2vF5FNz-PQ__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ" type="video/mp4"></video>';
       elem.innerHTML = videoBackground;
     }
     else {
@@ -138,7 +138,7 @@
 </script>
 
 <section id="home_bio">
-    <div class="container border border-danger header_section">
+    <div class="container header_section">
         <div class="row">
 
             <div class="col-sm-12 col-md-6 booking d-flex justify-content-center mb-3">
@@ -146,7 +146,7 @@
             </div>
 
             <div class="col-sm-12  col-md-6 descr d-flex align-items-center">
-                <div>
+                <div> 
                     <h2>Francesco Capodanno</h2>
                     <p class="lead"> Incipit bio.... (<a href="/bio.html">continua a leggere...</a>)</p>
                 </div>
@@ -159,7 +159,7 @@
 </section>
 
 <section id="home_libro">
-    <div class="container border border-danger header_section">
+    <div class="container header_section">
         <div class="row">
             <div class="col-sm-12 col-md-6 descr d-flex align-items-center">
                 <div>
@@ -174,7 +174,7 @@
     </div>
 </section>
 <section id="header_testimonianze">
-    <div class="container border border-danger header_section">
+    <div class="container header_section">
         <div class="row mb-5">
             <div class="col-12">
                 <h2 class="text-center">Testimonianze</h2>
@@ -201,9 +201,9 @@
 </section>
 
  
-  <div class="container-fluid border border-danger bg-light py-5">
+  <div class="container-fluid bg-light py-5">
     <div class="container">
-        <div class="border border-danger text-center">
+        <div class="text-center">
             <p>Questo sito è un progetto open source hostato su <a href="#repo">gitHub <i class="fab fa-github"></i></a>
                 Se interessati a condividere una testimonianza su Francesco Capodanno, segnalare mafunzionamenti del
                 sito o contribuire allo sviluppo, <a href="/contributi.html">contattateci</a>.</p>
