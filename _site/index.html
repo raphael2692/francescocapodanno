@@ -74,8 +74,8 @@
         <div class="w-100 text-white pt-5">
           <h1 class="">Francesco Capodanno</h1>
           <p class="lead mb-0">
-            Sito dedicato alla memoria di Francesco Capodanno, complementare al
-            libro dedicatogli:
+            Sito dedicato alla memoria del preside Francesco Capodanno, complementare al
+            libro:
             <a class="text-light" href="#home_libro">"Note"</a>
           </p>
         </div>
@@ -134,7 +134,10 @@
       elem.innerHTML = staticImageBackground;
     }
   }
-  switchHeeader(browser);
+  //switchHeeader(browser);
+  var elem = document.querySelector("#backgroundHeader");
+  var staticImageBackground = '<img src="/assets/images/home/sfondo1.jpg" class="img-fluid" alt="Responsive image">'
+  elem.innerHTML = staticImageBackground;
 </script>
 
 <section id="home_bio">
