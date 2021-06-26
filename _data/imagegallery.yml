@@ -1,18 +1,32 @@
 - titolo: Test google photo hotlink
   descrizione: Lorem ipsum....
   link: https://lh3.googleusercontent.com/WUhBj088KcK5hAkRiBemWExcSX4S1hR4sk5szdbLsK9mBJArcHxE8TGjkV7CyDMMCT4RY68enH-aw_Fnti448jZvTXd5hnrAs6eyVwLnQJeYBcbjsJtgYpI0u_ruFx8Cs2ivCRQWKyBIyNsGn1l7KJ_KhAZeDu8GCKpUu0365z1-jbv0mvTbWaCgH7xdROaXgIYOaiMitRV9NoBcr9InhkMaPFxpEeUn8XAgkYgVw_5uhE_RLRyPq5Qn6PuHS5zUIVE_v7GOzRT5gzCZZUeH17MCLupJZDIl2sxOPJjvjlhIpHN-liTHOZToD3t4DCePjk0fBk_WB5wfodBKMK3vyFxaULwQwPYH4PG6fRM3yL2kJwCcEpcrOlUM9xVXF2J5jrxBwyiKRoYHylPGwk2CdQuGhJ4oybS6jjAgalgjFKxLE9tTTqBtsn85FOkWUnqWe7wqSdRZfKdYSsFSKCGcS3qp3J3imUNswRmRc55z7X25b4-fY58JUO_S5v-om-bdpIpX_FUiP4mjANs-KN9W-UGRvdX-iayl92rzNlEn1nggX2vsv34TYtheAOz04XjtimWo2iozrtYqreI1EDqP6bdrGkG1jdCV8pwSbqMt8TjRRef4ro_xACMd-psQtCILAHOncDj6io1b8qcZ_Z6M3PRs2WVCzY0vRc2kSMMVj7FxlT27U88OnZpqgcwu42DjtC3uKI2YugmVgpAGLJi-Qg=w1159-h981-no?authuser=0
-- titolo: Home2
-  descrizione: Lorem ipsum....
-  link: https://i.imgur.com/eqeoFmx.png
+  gruppo:
+    - 
+      nome_gruppo: "gruppo1"
+      immagini:
+        -
+          img1: "img1"
+          img2: "img2"
+    - 
+      nome_gruppo: "gruppo2"
+      immagini:
+        -
+          img1: "img1"
+          img2: "img2"
 
-- titolo: Home3
-  descrizione: Lorem ipsum....
-  link: https://i.imgur.com/eqeoFmx.png
+  # - titolo: Home2
+#   descrizione: Lorem ipsum....
+#   link: https://i.imgur.com/eqeoFmx.png
 
-- titolo: Home4
-  descrizione: Lorem ipsum....
-  link: https://i.imgur.com/eqeoFmx.png
+# - titolo: Home3
+#   descrizione: Lorem ipsum....
+#   link: https://i.imgur.com/eqeoFmx.png
 
-- titolo: Home5
-  descrizione: Lorem ipsum....
-  link: https://i.imgur.com/eqeoFmx.png
+# - titolo: Home4
+#   descrizione: Lorem ipsum....
+#   link: https://i.imgur.com/eqeoFmx.png
+
+# - titolo: Home5
+#   descrizione: Lorem ipsum....
+#   link: https://i.imgur.com/eqeoFmx.png

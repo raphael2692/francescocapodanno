@@ -7,7 +7,7 @@ header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cor
 
 {% include template_section_header.html %}
 
-<div class="container">
+<!-- <div class="container">
     <div class="row flex-row">
         {% for item in site.data.imagegallery %}
         <div class="col-lg-6">
@@ -22,4 +22,31 @@ header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cor
         </div>
         {% endfor %}
     </div>
+</div> -->
+
+<div class="container">
+    {% for item in site.data.imagegallery %}
+    
+    <div class="row flex-row">
+        <div class="col-12">
+            <h2> {{ item.titolo }}</h2>
+            <p> {{ item.descrizione }}</p>
+            {% for sub_item in item.gruppo %}
+            
+            <div>
+                <p>{{ sub_item.nome_gruppo }}</p>
+                <ul>
+                    {% for sub_sub_item in sub_item.immagini %}
+                    <li> {{ sub_sub_item.img1 }}</li>
+                    <li> {{ sub_sub_item.img2 }}</li>
+                    {% endfor %}    
+                </ul>
+            </div>
+            
+            {% endfor %}
+        </div>
+
+
+    </div>
+    {% endfor %}
 </div>
