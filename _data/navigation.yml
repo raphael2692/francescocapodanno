@@ -4,10 +4,10 @@
   link: /bio.html
 - name: Note
   link: /pagina_libro.html
-- name: Documenti
-  link: /documentgallery.html
 - name: Video
   link: /videogallery.html
+- name: Documenti
+  link: /documentgallery.html
 - name: Immagini
   link: /imagegallery.html
 - name: Contributi
