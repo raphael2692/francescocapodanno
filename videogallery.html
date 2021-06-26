@@ -1,27 +1,29 @@
 ---
 layout: default-fluid
-title: videogallery
+title: Videogallery
 header_title: Galleria video
-header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias minima corporis, dicta repudiandae laboriosam sapiente fugiat quo molestiae illum dolorem repellat reiciendis fugit eaque temporibus voluptatem. Officia, earum obcaecati.
+header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias minima corporis, dictarepudiandae laboriosam sapiente fugiat quo molestiae illum dolorem repellat reiciendis fugit eaque temporibus voluptatem. Officia, earum obcaecati.
 ---
 
 {% include template_section_header.html %}
 
 <div class="container">
-    <div class="row flex-row">
-        <!--https://stackoverflow.com/questions/24010956/bootstrap-without-rows-->
-        {% for item in site.data.videogallery %}
+
+    <!--https://stackoverflow.com/questions/24010956/bootstrap-without-rows-->
+    {% for item in site.data.videogallery %}
+    <div class="row flex-row mb-5">
         <div class="col-lg-6 my-2">
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="{{ item.link }}" allowfullscreen></iframe>
             </div>
         </div>
-            <div class="col-lg-6 my-2">
-                <h3>{{ item.titolo }}</h3>
-                <p>{{ item.descrizione | markdownify }}</p>
-            </div>
-            {% endfor %}
+        
+        <div class="col-lg-6 my-2">
+            <h3>{{ item.titolo }}</h3>
+            <p>{{ item.descrizione | markdownify }}</p>
         </div>
     </div>
-</div>
+    {% endfor %}
 
+
+</div>
