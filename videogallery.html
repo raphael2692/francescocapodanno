@@ -18,7 +18,7 @@ header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cor
         </div>
             <div class="col-lg-6 my-2">
                 <h3>{{ item.titolo }}</h3>
-                <p>{{ item.descrizione }}</p>
+                <p>{{ item.descrizione | markdownify }}</p>
             </div>
             {% endfor %}
         </div>
