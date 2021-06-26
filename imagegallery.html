@@ -11,11 +11,10 @@ header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cor
     <div class="row flex-row">
         {% for item in site.data.imagegallery %}
         <div class="col-lg-6">
-            <a target="" href="{{ item.link }}">
-        
+            <a target="”_blank”" href="{{ item.link }}">
+
                     <img class="img-fluid boxShadow" src="{{ item.link }}" alt="{{ item.titolo }}" style="max-width:320px">
             
-
             </a>
             <div class="lead m-5">
                 <p>{{ item.descrizione }}</p>

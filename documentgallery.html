@@ -1,0 +1,23 @@
+---
+layout: default-fluid
+title: documentgallery
+header_title: Galleria documenti
+header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias minima corporis, dicta repudiandae laboriosam sapiente fugiat quo molestiae illum dolorem repellat reiciendis fugit eaque temporibus voluptatem. Officia, earum obcaecati.
+---
+
+{% include template_section_header.html %}
+
+<div class="container">
+  <div class="row flex-row">
+    {% for item in site.data.documentgallery %}
+    <div class="col-lg-6 my-2">
+      <h3>{{ item.titolo }}</h3>
+<div class="ml-1">
+    <p class="lead">{{ item.descrizione }}</p>
+    <a href="{{ item.link }}" download="{{ item.filename }}"> Download documento</a>
+</div>
+
+    </div>
+    {% endfor %}
+  </div>
+</div>

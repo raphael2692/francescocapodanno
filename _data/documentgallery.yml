@@ -1,0 +1,20 @@
+# - titolo: Esempio download file in locale
+#   descrizione: Lorem ipsum....
+#   link: /assets/images/home/sfondo2.jpg
+#   filename: nome del file
+- titolo: Home2
+  descrizione: Lorem ipsum....
+  link: https://i.imgur.com/eqeoFmx.png
+  filename: nome del file
+- titolo: Home3
+  descrizione: Lorem ipsum....
+  link: https://i.imgur.com/eqeoFmx.png
+  filename: nome del file
+- titolo: Home4
+  descrizione: Lorem ipsum....
+  link: https://i.imgur.com/eqeoFmx.png
+  filename: nome del file
+- titolo: Home5
+  descrizione: Lorem ipsum....
+  link: https://i.imgur.com/eqeoFmx.png
+  filename: nome del file
