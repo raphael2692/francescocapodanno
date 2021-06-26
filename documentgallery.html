@@ -11,6 +11,23 @@ header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cor
   <div class="row flex-row">
     {% for item in site.data.documentgallery %}
     <div class="col-lg-6 my-2">
+      <a href="{{ item.link }}" target="_blank"><h3>{{ item.titolo }}</h3></a>
+      <p>{{item.autore }}</p>
+      <div class="ml-1">
+    <p class="lead">{{ item.descrizione }}</p>
+    
+</div>
+
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- 
+<div class="container">
+  <div class="row flex-row">
+    {% for item in site.data.documentgallery %}
+    <div class="col-lg-6 my-2">
       <h3>{{ item.titolo }}</h3>
 <div class="ml-1">
     <p class="lead">{{ item.descrizione }}</p>
@@ -20,4 +37,4 @@ header_description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cor
     </div>
     {% endfor %}
   </div>
-</div>
+</div> -->

@@ -1,8 +1,8 @@
-- name: Home
-  link: /
+# - name: Home
+#   link: /
 - name: Biografia
   link: /bio.html
-- name: Note
+- name: "&quotNote&quot;"
   link: /pagina_libro.html
 - name: Video
   link: /videogallery.html
