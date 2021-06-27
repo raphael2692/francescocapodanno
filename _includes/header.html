@@ -1,7 +1,9 @@
 <header>
   <div class="custom-video-wrapper">
     <div class="custom-video-overlay">
-      <div id="backgroundHeader"></div>
+      <div id="backgroundHeader">
+        <img src="{{ /assets/images/home/sfondo3.jpg | relative_url }}" class="img-fluid" alt="Responsive image">
+      </div>
     </div>
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
@@ -17,7 +19,7 @@
     </div>
   </div>
 </header>
-<script>
+<!-- <script>
   //document.getElementById('UserAgent').value = navigator.userAgent;
   //var test = navigator.userAgent;
   //console.log(test)
@@ -70,6 +72,6 @@
   }
   //switchHeeader(browser);
   var elem = document.querySelector("#backgroundHeader");
-  var staticImageBackground = '<img src="/assets/images/home/sfondo3.jpg" class="img-fluid" alt="Responsive image">'
+  var staticImageBackground = '<img src="{{ /assets/images/home/sfondo3.jpg | relative_url }}" class="img-fluid" alt="Responsive image">'
   elem.innerHTML = staticImageBackground;
-</script>
+</script> -->
