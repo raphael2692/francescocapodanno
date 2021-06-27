@@ -4,11 +4,11 @@
             <div class="col-sm-12 col-md-6 descr d-flex align-items-center">
                 <div>
                     <h2>{{ include.paragraph_title }}</h2>
-                    <p class="lead"> {{ include.paragraph_body }} (<a href="{{ include.paragraph_link }}">continua a leggere...</a>)</p>
+                    <p class="lead"> {{ include.paragraph_body }} (<a href="{{ include.paragraph_link | relative_url }}">continua a leggere...</a>)</p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 booking d-flex justify-content-center mb-3">
-                <img class="img-fluid boxShadow" src="{{ include.image_src }}" alt="Cover libro 'Note'" style="max-width:320px">
+                <img class="img-fluid boxShadow" src="{{ include.image_src | relative_url }}" alt="Cover libro 'Note'" style="max-width:320px">
             </div>
         </div>
     </div>
