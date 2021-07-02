@@ -10,5 +10,5 @@
   link: /documentgallery.html
 - name: Immagini
   link: /imagegallery.html
-- name: Contributi
-  link: /contributi.html
+# - name: Contributi
+#   link: /contributi.html
