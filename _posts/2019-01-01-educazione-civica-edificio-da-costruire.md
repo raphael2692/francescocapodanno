@@ -1,0 +1,47 @@
+---
+date: 2019-01-01 10:08:39 +02:00
+layout: default
+title: L'educazione civica - Un edificio da costruire
+header_title: L'educazione civica - Un edificio da costruire
+header_description: di Francesco Capodanno. In margine al convegno dell’UCIIM. 
+image: art1.jpg
+quote: L’Educazione civica, non è una materia da studiare, ma un edificio da costruire, è una disciplina da imparare e da vivere. Essa raccoglie e propone i valori da difendere e da testimoniare. (cit. Francesco Capodanno)
+---
+
+{% include template_section_header_alt.html %}
+
+L’obiettivo del 36° Convegno Nazionale dell’ U.C.I.I.M., tenutosi a Catania dal 6 all’ 11 Febbraio 1957, è stato – lo si può ben dire – pienamente raggiunto: sensibilizzare gli uomini di scuola ad uno dei problemi più attuali ed interessanti per l’educazione (l’educazione stessa del futuro cittadino),e metterne in risalto l’esigenza di soluzione, esigenza generalmente sentita ed approvata, ma finora da nessuno posta all’*ordine del giorno* degli interessi reali della scuola. E’ un obiettivo - s’intende bene – che è solo una tappa: la prima tappa. Tale, infatti, in qualsiasi costruzione, si deve chiamare il getto delle fondamenta.
+
+L’edificio è da costruire; ma sappiamo ormai che chiunque vorrà prendere *l’appalto* di una simile impresa non potrà ignorare l’opera altamente meritoria svolta dall’ U.C.I.I.M.
+
+Il Convegno catanese sulla *educazione civica* ha saputo dare una formulazione e una impostazione del problema vasta ed esauriente, avviando anche alcune prospettive di soluzione. Le varie relazioni si susseguirono, infatti, in modo tale da dare ai partecipanti una visione via via più particolare precisa del problema: dalle prime che lo inquadrarono storicamente e idealmente, a quelle centrali che lo videro *calato* nelle diverse articolazioni della scuola d’oggi, alle ultime che ne osservarono i riflessi e gli sviluppi nell’ambiente extrascolastico.
+
+La relazione prolusiva fu tenuta da Domenico Magrì. Egli, dopo una rapida rassegna storica sulle diverse forme di *reggimento* dei popoli, si fermò a ricercare le origini e la natura della *democrazia,* affermando quindi che questa si realizza compiutamente ed organicamente solo nei tempi moderni e si presenta come una forma ne facile ne comoda di reggimento.
+
+Gesualdo Nosengo aprì con la sua relazione la seconda giornata del Convegno e diede al problema un’importanza teorica vasta, chiara ed essenziale.
+
+Nelle prime due relazioni sono contenuti in *nuce,* tutti i possibili sviluppi e le possibili articolazioni del problema e già da esse, specie dalla seconda, si ricava questa constatazione fondamentale: che l’educazione civica è soprattutto prassi etica, esperienza di costume, oltre e prima ancora che ammaestramento teorico e conoscenza nozionistica di principi. Le relazioni successive, quelle che in principio indicammo – evidentemente con intenzioni “topografiche”- *centrali,*  hanno ribadito infatti queste essenziali affermazioni, sviluppandole più ampiamente e con più specifiche aderenze, e prospettandone interessanti applicazioni: 
+
+1) *nella scuola in generale,* dove l’educazione civica si configura come un nuovo modo di determinare il rapporto scolastico, che viene basato su criteri di fiducia, di mutua collaborazione, di abitudine alla reciproca lealtà, ed inoltre come *insegnamento* (non “materia d’insegnamento” in quanto oggetto di valutazione scolastica) che integra le attività educative svolte nell’ambito del programma scolastico e fornisce le cognizioni essenziali sugli ordinamenti della vita politica, sociale e civile (relaz. *Gozzer*); 
+
+2) *nella scuola primaria,* dove  l’educazione civica non può essere in nessun modo “materia di insegnamento”, ma deve giovarsi del concorso di tutte le materie di insegnamento, le quali perderanno, o forse meglio supereranno, il carattere di archivio di nozioni per diventare interessi attuali dell’alunno( relaz. *Rossi*);
+
+3) *nella scuola secondaria di primo ciclo,* dove al ruolo principale rappresentato dalla vita di classe e di gruppo (che darà all’alunno un’esperienza diretta e adeguata di solidarietà, di confidenza reciproca, di senso di tolleranza, di libera e responsabile collaborazione) si aggiungeranno, alla fine del triennio e nella maniera più idonea, l’apprendimento della nazione di Stato e la conoscenza della organizzazione dello Stato italiano, nonché delle più importanti istituzioni nazionali e internazionali (relaz. *Tamborlini*); 
+
+4) *nella scuola secondaria superiore,* dove ad una più ricca preparazione culturale ad una più matura conoscenza della Costituzione italiana corrisponderà una più profonda sensibilità sociale, civile e civica realizzata attraverso un reale costume democratico che la scuola dovrà saper far vivere sperimentalmente, in forme sempre più coincidenti con la vita stessa del cittadino lavoratore (relaz. *Perucci*).
+
+5) La relazione di Franco Bonacina fu dedicata alla considerazione di tutte le aderenze e di tutti i riflessi che l’educazione civica realizzata dalla scuola può avere nell’ambiente extra scolastico: innanzitutto *nella famiglia,* nella quale, per mezzo del figlio studente, entrerà un nuovo spirito, avviando la famiglia a sentire come doveri lo sbocco e il completamento nella società.
+
+Un solo punto sembrerebbe – da quanto abbiamo finora riferito – non sviluppato: la terza delle considerazioni fondamentali della relazione Nosengo: “ Una educazione civica concepita cristianamente si ispira ai principi dell’educazione morale e cristiana. In effetti neanche questo punto è stato trascurato; ha avuto anzi una trattazione apposita e ampia, in una sede la più degna, in un ambiente il più nobile e bello: vicino a Colui che è Via, Verità e Vita, nella Chiesa di SAN Benedetto ai ai Crociferi. Ha guidato le due meditazioni su questo punto Mons. Tullio Piacentini, consulente ecclesiastico centrale dell’U.C.I.I.M. e docente nella Pontificia Università di “Propaganda Fide” .
+
+L’ultimo giorno del Convegno fu dedicato in gran parte alla stesura, discussione e approvazione di una dichiarazione conclusiva che comprende le risultanti più notevoli delle varie relazioni.
+
+Quali sono dunque le conclusioni a cui è giunto il Convegno catanese? Possiamo desumerle dalla stessa mozione finale, sapientemente articolata (come già le relazioni del Convegno) in varie parti, riguardanti *i principi, lo spirito cristiano, il fondamento costituzionale* e la sua *penetrazione,* attraverso le varie *strutture scolastiche,* nell’ambiente giovanile.
+
+Prescindendo dalle premesse di principio – che andavano certamente fatte e che ci trovarono pienamente consenzienti – il rilievo più interessante e, per una sintesi, più appariscente ci sembra questo: l’educazione civica non può e non deve essere una ennesima *materia di insegnamento,* deve invece essere come il risultato dell’azione educativa di tutta la scuola. Non un’astratta teoria imposta e, perciò stesso, destinata a non penetrare se non negli strati superficiali della coscienza umana dell’ educando futuro cittadino, e in un modo – per giunta – effimero.
+
+A questa che, ripetiamo, ci sembra la conclusione più valida e positiva, pare faccia contrasto quell’altro rilievo che pone la conoscenza del testo della Costituzione italiana come una necessità insostituibile, almeno per i corsi finali di studio (relaz. *Nosengo*). In effetti, però, quelle due affermazioni non si escludono a vicenda. Perchè, se è vero – come è stato ben rilevato – che “dal contributo di tutte le materie scolastiche i giovani andranno ricavando una più ravvicinata *consapevolezza* culturale della vita sociale” (relaz.*Perucci*) è chiaro che anche una *colorazione* civica nell’insegnamento di ogni singola materia non può che esser frutto della personale competenza ed abilità del rispettivo insegnante, tenuto presente che l’azione didattica sarà tanto più efficace quanto più si ispirerà,anche in questo settore, ai principi che regolano una sana scuola attiva” (relaz. *Tamborlini*); mentre l’*educazione civica*, intesa in un senso più specifico, può, anzi deve andare più oltre: verso una forma, cioè, che sia nello stesso tempo attuazione vissuta dei principi fondamentali della Costituzione e conoscenza graduale e maturata della costituzione stessa.
+
+Come ciò si possa attuare nella scuola, il Convegno – in verità – ha detto in modo forse vago e generico; ne, del resto, si poteva pretendere che, in così breve tempo, si precisasse con ogni minuzia di particolari quello che dovrà essere frutto di un lavoro attento e meditato, di un lavoro che il Convegno voleva, appunto, promuovere.
+
+La *didattica* dell’educazione civica è tutto un capitolo da stendere e del quale non abbiamo ancora che il titolo di qualche canovaccio: trattandosi di una *disciplina* (ci si passi il termine, in questo caso molto ambiguo) nuova nell’economia scolastica, si potrebbe essere ben lungi dall’accettare come soluzioni le prospettive – assolutamente interessanti – presentate dai relatori ufficiali del convegno. Esse non sono del resto, e, credo, non volevano essere – se non la base, il punto di partenza, l’avvio: ciò che verrà dopo è compito di tutti gli uomini di scuola: dei più sensibili – almeno – e dei migliori.

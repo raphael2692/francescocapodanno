@@ -1,0 +1,38 @@
+---
+layout: default-fluid
+title: Article Gallery
+header_title: Articoli
+header_description: Raccolta di articoli in evidenza
+---
+
+{% include template_section_header.html %}
+
+
+<!-- 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+ -->
+<div class="container">
+
+  <!--https://stackoverflow.com/questions/24010956/bootstrap-without-rows-->
+  {% for post in site.posts  %}
+  <div class="row text-cemter mb-5">
+    <div class="col-lg-12 my-2">
+      <h2 class="text-center"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{post.quote}}</p>
+      <a href="{{site.baseurl}}{{ post.url }}"> Continua a leggere... </a>
+      <br>
+      <br>
+      <img src="{{ site.baseurl }}/assets/images/articoli/{{post.image}}" alt="" class="rounded mx-auto d-block">
+    </div>
+  </div>
+  {% endfor %}
+
+
+</div>
