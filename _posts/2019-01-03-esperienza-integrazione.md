@@ -1,8 +1,8 @@
 ---
-date: 2021-01-03 10:08:39 +02:00
+date: 2019-01-03 10:08:39 +02:00
 layout: default
-title: Un'esperienza d'integrazione
-header_title: Un'esperienza d'integrazione
+title: Un'esperienza d'integrazione (1987)
+header_title: Un'esperienza d'integrazione (1987)
 header_description: di Francesco Capodanno. Pubblicato in 'La Continuità educativa', Ministero Pubblica Istruzione - Provveditorato Sicilia, Collana Studi Richerche Aggiornamenti
 image: art3.jpg
 quote: La scuola può dare un luogo di identità e di appartenenza ai ragazzi che non c’è l’hanno. (cit. Francesco Capodanno)

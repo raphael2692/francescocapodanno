@@ -1,8 +1,8 @@
 ---
-date: 2019-01-01 10:08:39 +02:00
+date: 2021-01-01 10:08:39 +02:00
 layout: default
-title: L'educazione civica - Un edificio da costruire
-header_title: L'educazione civica - Un edificio da costruire
+title: L'educazione civica - Un edificio da costruire (1957/58)
+header_title: L'educazione civica - Un edificio da costruire (1957/58)
 header_description: di Francesco Capodanno. In margine al convegno dell’UCIIM. 
 image: art1.jpg
 quote: L’Educazione civica, non è una materia da studiare, ma un edificio da costruire, è una disciplina da imparare e da vivere. Essa raccoglie e propone i valori da difendere e da testimoniare. (cit. Francesco Capodanno)

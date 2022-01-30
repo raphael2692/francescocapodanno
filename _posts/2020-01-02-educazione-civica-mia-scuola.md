@@ -1,8 +1,8 @@
 ---
 date: 2020-01-02 10:08:39 +02:00
 layout: default
-title: L'educazione civica nella mia scuola
-header_title: L'educazione civica nella mia scuola
+title: L'educazione civica nella mia scuola (1988/89)
+header_title: L'educazione civica nella mia scuola (1988/89)
 header_description: di Valentina Di Prima, 3C. Pubblicata nella rivista Scolastica "NOI QUEST’ANNO", 88-89.
 image: art2.jpg
 quote: L’uomo che cresce ha bisogno di sapere e credere che è capace di costruire il bene. (cit. Francesco Capodanno)
